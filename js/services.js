@@ -14,6 +14,8 @@ angular.module('starter.services', [])
     { id: 3, title: 'Sharks', description: 'An advanced pet. Needs millions of gallons of salt water. Will happily eat you.' }
   ];
 
+  FastClick.attach(document.body);
+  
   return {
     all: function() {
       return pets;
