@@ -67,3 +67,4 @@ angular.module('starter', ['ionic', 'starter.services', 'starter.controllers'])
 
 });
 
+FastClick.attach(document.body);
